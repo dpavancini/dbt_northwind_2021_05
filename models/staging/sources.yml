@@ -1,10 +1,10 @@
 version: 2
 
 sources:
-  - name: northwind_erp
+  - name: northwind_erp # aqui você deve substituir pelo nome do dataset criado pelo Stitch/Kondado no bigquery
     description: Essa é a fonte de dados do nosso ERP, criada através do Stitch
     tables:
-      - name: products
+      - name: products # se você usou kondado, é possível que aqui esteja escrito public_products
         description: Essa é a tabela de produtos do ERP.
 
       - name: employees
